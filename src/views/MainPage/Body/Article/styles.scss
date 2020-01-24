@@ -5,6 +5,9 @@
   .article-text {
     flex: 1;
     padding: 20px 50px 20px 50px;
+    width: 100%;
+    overflow: auto;
+    //height: calc(100% - 40px);
     .name {
       //width: 100%;
       text-align: center;
@@ -14,8 +17,7 @@
     .text {
       width: 100%;
       text-align: center;
-      height: 100%;
-      overflow: auto;
+      height: calc(100% - 58px);
     }
   }
 }
