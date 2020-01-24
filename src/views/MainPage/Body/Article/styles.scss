@@ -1,0 +1,21 @@
+.article {
+  width: 100%;
+  display: flex;
+
+  .article-text {
+    flex: 1;
+    padding: 20px 50px 20px 50px;
+    .name {
+      //width: 100%;
+      text-align: center;
+      padding: 10px;
+      font-size: 32px;
+    }
+    .text {
+      width: 100%;
+      text-align: center;
+      height: 100%;
+      overflow: auto;
+    }
+  }
+}

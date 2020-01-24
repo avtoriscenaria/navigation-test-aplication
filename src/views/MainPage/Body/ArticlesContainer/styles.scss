@@ -1,0 +1,27 @@
+@import "../../../../styles/colors";
+
+.articles-container {
+  width: 600px;
+  height: max-content;
+
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .article-item {
+    width: 200px;
+    height: 200px;
+    border: 1px solid $mainColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    cursor: pointer;
+
+    &.-hovered {
+      background-color: gainsboro;
+    }
+  }
+}

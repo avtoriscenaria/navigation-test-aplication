@@ -1,0 +1,31 @@
+@import "../../styles/colors";
+
+.login-page {
+  position: relative;
+  padding: 5px;
+  width: 200px;
+  height: 160px;
+
+  border: 1px solid $mainColor;
+  border-radius: 3px;
+
+  //background-color: $mainColor;
+
+  .lp-logo {
+    top: 10px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .lp-login {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

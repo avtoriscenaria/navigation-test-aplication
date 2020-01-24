@@ -1,0 +1,35 @@
+@import "../../styles/colors";
+
+.modal-message {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .message-container {
+    background-color: whitesmoke;
+    width: 260px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid $mainColor;
+    border-radius: 3px;
+
+    .label {
+      padding-bottom: 20px;
+    }
+
+    .actions {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}

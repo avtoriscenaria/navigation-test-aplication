@@ -1,0 +1,25 @@
+@import "../../../../../styles/colors";
+
+.articles-list {
+  width: 25%;
+  height: 100%;
+  overflow: auto;
+  border-right: 1px solid $mainColor;
+
+  .list-item {
+    cursor: pointer;
+    height: 36px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+
+    &.-hovered {
+      background-color: gainsboro;
+      opacity: 0.6;
+    }
+
+    &.-selected {
+      background-color: gainsboro;
+    }
+  }
+}

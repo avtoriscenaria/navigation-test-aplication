@@ -1,0 +1,49 @@
+@import "../../styles/colors";
+
+.button {
+  cursor: pointer;
+
+  width: 180px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+  span {
+    margin-left: 8px;
+  }
+
+  &.-hover {
+    opacity: 0.8;
+  }
+
+  &.in {
+    color: white;
+    background-color: $success;
+  }
+
+  &.out {
+    width: 100px;
+    height: 32px;
+
+    border: 1px solid $mainColor;
+    border-radius: 3px;
+    background-color: grey;
+    color: white;
+  }
+
+  &.cancel {
+    width: 120px;
+    background-color: gainsboro;
+    border: 1px solid $mainColor;
+  }
+
+  &.logout {
+    width: 120px;
+    background-color: $logout;
+    border: 1px solid $mainColor;
+    color: white;
+  }
+}
